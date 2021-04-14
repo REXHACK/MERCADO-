@@ -1,0 +1,29 @@
+main{
+    padding: 30px 0;
+    width: 60%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+.contenido_de_catalogo{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagen-catalogo{
+    width:60%;
+    margin: 5px;
+    padding: 5px;
+
+}
+.contenido_de_catalogo .contenedor-textos{
+    width: 48%;
+
+}
+.contenedor-textos  {
+    margin-bottom: 15px;
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify ;
+}

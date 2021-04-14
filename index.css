@@ -1,7 +1,16 @@
 *{
+    Margin-top: 20px
     Margin: auto;
 }
-
+nav {
+    
+}
+img {
+    border: 1px solid grey;
+}
+.catalogo{
+    display: inline-block;
+}
 
                 
             

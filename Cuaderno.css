@@ -5,25 +5,32 @@ main{
     margin: auto;
     overflow: hidden;
 }
+#compra {
+    border: 1px solid gray;
+    width: 20px;
+    display: inline-block;
+}
 #marca {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
+    color: green;
+    text-decoration-line: underline;
 }
 #precio {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
+    color: green;
+    text-decoration-line: underline;
 }
 .contenido_de_catalogo{
     display: flex;
     justify-content: space-evenly;
-
 }
-
 .imagen-catalogo{
     width:60%;
     margin: 5px;
     padding: 5px;
-
+    border: 1px solid grey;
 }
 .contenido_de_catalogo .contenedor-textos{
     width: 48%;
@@ -31,7 +38,7 @@ main{
 }
 .contenedor-textos  {
     margin-bottom: 15px;
-    padding: 0px 0px 30px 15px;
+    padding: 2px 2px 30px 15px;
     font-weight: 300;
     text-align: justify ;
 }

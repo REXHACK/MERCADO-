@@ -1,16 +1,47 @@
 *{
-    Margin-top: 20px
+    Margin-top: 20px;
+    Margin-bottom: 50px;
     Margin: auto;
+    padding: 3px;
 }
 nav {
-    
-}
-img {
-    border: 1px solid grey;
-}
-.catalogo{
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(30, 30, 87);
+    direction: rtl;
+    background: wheat;
 }
-
-                
-            
+nav a {
+    text-decoration-line: none;
+}
+nav:visited {
+    color: blue;
+}
+nav:hover {
+    color: blue;
+    font-weight: bolder;
+    background: rgb(197, 196, 196);
+}
+figure {
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+}
+figcaption {
+    position: absolute;
+    text-align: center;
+    padding: 0px;
+}
+.imagenes {
+    width: 250px;
+}
+aside{
+    
+    width: 300px;
+    min-height: 400px;
+    background: pink;
+    float: right;
+    margin: 10px;
+}

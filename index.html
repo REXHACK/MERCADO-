@@ -7,12 +7,12 @@
     <title> T-V Estore</title>
     <link rel="icon" href="ID_IMAGENES/favicon.ico" >
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
 </title>
 </head>
 <body>
     </header>
-        <section>
-            <img src="ID_IMAGENES/pagina principal.gif" id="imagen_gif">
+        <section>            
             <div class="texto_imagen">
                 <h1>
                     <a name="iinicio" id="texto_imagen">Tienda virtual</a>
@@ -20,10 +20,11 @@
                 <h2 id="texto_imagen">Compra tus útiles escolares desde tu casa!!</h2>
             </div>
         </section>
-        <nav>            
-            <a href="#inicio">Inicio</a>
-            <a href="#catalogo">Catalogo</a>
-            <a href="#Mi cuenta">Mi cuenta</a>            
+        <video src="ID_IMAGENES/pagina principal.gif" controls="" id="imagen_gif"></video>
+        <nav>
+            <a href="#inicio" ID="inicio">Inicio</a>
+            <a href="#catalogo" ID="id_inicio_Catalogo">Catalogo</a>
+            <a href="#Mi cuenta" ID="Mi_cuenta">Mi cuenta</a>            
         </nav>
         <img id="imagen_logo" src="ID_IMAGENES/Logo.jpeg" class="logo_tienda" Style="width: 20px">
     </header> 
@@ -34,6 +35,7 @@
         <img src="ID_IMAGENES/Promociones 1.webp" class="bebe">
         <p>kedfhfihdfiadfiaf</p>
         <img src="ID_IMAGENES/Promociones y descuentos.jpg" class="bebe">
+        
         <p>kedfhfihdfiadfiaf</p>
         <img src="ID_IMAGENES/PROMOCION.png" class="bebe" >
         <p>jogairgaiewfiaerj</p>
@@ -42,19 +44,19 @@
     <main>
         <section class= "catalogo">
             
-            <h3 style="text-align: center;">Catalogo</h3>
+            <h3 id="catalogo">Catalogo</h3>
             <figure>
                 <form action="Cuadernos.html" > 
                     <input  type="image" src="ID_IMAGENES/Cuaderno inicial.jpg" class="imagenes" >  
                 </form>
-                <figcaption><a>cuaderno</a></figcaption>
+                <figcaption><a class="imagenes">cuaderno</a></figcaption>
             </figure>
     
             <figure>
                 <form action="Colores.html" > 
                     <input  type="image" src="ID_IMAGENES/Colores inicio.jpg" class="imagenes" >  
                 </form>
-                <figcaption><a>Colores</a></figcaption>
+                <figcaption><a class="imagenes">Colores</a></figcaption>
             </figure>
 
             <figure>

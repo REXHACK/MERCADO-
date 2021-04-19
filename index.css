@@ -14,18 +14,26 @@ p {
     display: inline-block;
     text-align: center;
 }
-#texto_imagen {
+.texto_imagen {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: cursiva;
     
 }
-#imagen_gif {
-    display: block ;
+#img_portada_nueva{
     width: 1481px;
     margin: 5px;
-    height: 260px;
+    height: 500px;
+    display: flex;
+
+}
+#imagen_gif {
+   
+    width: 1481px;
+    margin: 5px;
+    height: 150px;
     display: flex;
 }
 nav {
@@ -36,19 +44,23 @@ nav {
     direction: rtl;
     margin: 1px;
 }
-#inicio, #id_inicio_catalogo, #Mi_cuenta {
+#inicio, #id_inicio_Catalogo, #Mi_cuenta { 
+    margin: 3px;
+    padding: 3px;
+    width: 30px;
     text-decoration-line: none;
-    background: rgb(247, 208, 136);
+    background: rgb(240, 185, 83);
     direction: right;
+    z-index: auto;
 }
-#inicio:visited, #id_inicio_catalogo:visited, #Mi_cuenta:visited {
+#inicio:visited, #id_inicio_Catalogo:visited, #Mi_cuenta:visited {
     color: blue;
 }
 header img {
     display: inline-block;
     left: 2px;
 }
-#inicio:hover, #id_inicio_catalogo:hover, #Mi_cuenta:hover {
+#inicio:hover, #id_inicio_Catalogo:hover, #Mi_cuenta:hover {
     color: blue;
     font-weight: bolder;
     background: wheat;

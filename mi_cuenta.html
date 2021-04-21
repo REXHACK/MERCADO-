@@ -6,60 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Formulario Registro </title>
     <style>
-
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-    .form-register{
-        width: 400px;
-        background: rgb(243, 197, 233);
-        padding: 30px;
-        margin: auto;
-        margin-top: 100px;
-        border-radius: 4px;
-        font-family: 'calibri'; 
-        box-shadow: 7px 13px 37px rgb(240, 102, 210);
-}
-    .form-register h4{
-        font-size: 30px;
-        margin-bottom: 20px;
-}      
-
-    .controls{
-        width: 100%;
-        background: rgb(255, 255, 255);
-        padding: 10px;
-        border-radius: 4px;
-        margin-bottom: 16px;
-        font-family: 'Times New Roman';
-        font-size: 18px;
-}      
-    .form-register p{
-        height: 40px;
-        text-align: center;
-        font-size: 18px; 
-        line-height: 40px;   
-}     
-      
-    .form-register a{
-        color: rgb(0, 0, 0); 
-        text-decoration: none; 
-}     
-    .form-register a:hover{
-        color: rgb(0, 0, 0); 
-        text-decoration: underline; 
-}   
-    .form-register .botons{
-        width: 100%;
-        background: rgb(76, 243, 221);
-        border:none;
-        padding: 12px;   
-        margin: 16px 0;
-        font-size: 16px;    
-}      
-        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .form-register {
+            width: 400px;
+            background: rgb(243, 197, 233);
+            padding: 30px;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 4px;
+            font-family: 'calibri'; 
+            box-shadow: 7px 13px 37px rgb(240, 102, 210);
+        }
+        .form-register h4 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }      
+        .controls {
+            width: 100%;
+            background: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            font-family: 'Times New Roman';
+            font-size: 18px;
+        }
+        .form-register p {
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 40px;
+        }
+        .form-register a {
+            color: rgb(0, 0, 0);
+            text-decoration: none; 
+        }
+        .form-register a:hover {
+            color: rgb(0, 0, 0); 
+            text-decoration: underline;
+        }
+        .form-register .botons {
+            width: 100%;
+            background: rgb(76, 243, 221);
+            border:none;
+            padding: 12px;   
+            margin: 16px 0;
+            font-size: 16px;    
+        }
+        input:focus {
+            border: 3px solid navy;
+            color: black;
+        }
+        #correo:invalid {
+            color: maroon;
+            background: #eaeded;
+            border: 4px solid #e74c3c;
+        }
+        #correo:valid {
+            border: 4px solid #82e0aa;
+            color: black;
+        }
+        .controls:required {
+            background: #e74c3c;
+            color: maroon;
+        }
     </style>
 </head>
 <body>
@@ -67,14 +80,11 @@
         <h4>Formulario Registro</h4>
         <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre"><br>
         <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido"><br>
-        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Password"><br>
+        <input class="controls" type="password" name="correo" id="contraseña" placeholder="Ingrese su Password"><br>
         <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo"><br>
         <input class="controls" type="date" name="Calendario" id="Calendario">
         <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
         <input class="botons" type="submit" value="Ingresar">
     </section>
-
 </body>
 </html>
-
-

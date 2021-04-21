@@ -1,70 +1,80 @@
 * {
-    Margin-top: 20px;
-    Margin-bottom: 50px;
+    Margin-top: 0px;
+    Margin-bottom: 0px;
     Margin: auto;
-    padding: 3px;
+    padding: 0px;    
+}
+body {
+    background: linear-gradient( black, #2C2C2C, #424242,#585858, #6F6F6F,#858585);
+}
+h1 {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bolder;
+}
+h2, h3, h4, h5, h6 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bolder;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    left: 3px;
+}
+#imagen_logo {
+    width: 5%;
+    margin: -7px;
 }
 .texto_imagen {
-    position: relative;
-    display: inline-block;
+    color:rgb(252, 248, 48);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 50px;
     text-align: center;
-}
-.texto_imagen {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: cursiva;
-    
+    left: 12cm;
+    bottom: 9cm;
+    z-index: 1;
 }
-#img_portada_nueva{
-    width: 1481px;
-    margin: 5px;
-    height: 500px;
-    display: flex;
-
-}
-#imagen_gif {
+.portada {
+    width: 1499px;
+    height: 620px;
+    position: relative;
+    border: 10px groove rgb(61, 59, 59);
    
-    width: 1481px;
-    margin: 5px;
-    height: 150px;
-    display: flex;
 }
 nav {
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
     color: rgb(30, 30, 87);
     direction: rtl;
     margin: 1px;
-}
-#inicio, #id_inicio_Catalogo, #Mi_cuenta { 
-    margin: 3px;
-    padding: 3px;
-    width: 30px;
-    text-decoration-line: none;
-    background: rgb(240, 185, 83);
-    direction: right;
-    z-index: auto;
-}
-#inicio:visited, #id_inicio_Catalogo:visited, #Mi_cuenta:visited {
-    color: blue;
+    align-self: center;
 }
 header img {
     display: inline-block;
     left: 2px;
 }
-#inicio:hover, #id_inicio_Catalogo:hover, #Mi_cuenta:hover {
-    color: blue;
-    font-weight: bolder;
-    background: wheat;
+.menu {
+    background-color: rgb(250, 214, 54);
+    padding: 10px 100px;
+    margin: 1px;
+    display:inline-block;
+    border: 5px inset rgb(250, 214, 54);
 }
+.menu:hover {
+    background-color: rgb(241, 170, 63);
+    padding: 10px 117px;
+    margin: 1px;
+    display:inline-block;
+    border: 5px groove rgb(250, 214, 54);
+
+}
+.menu:visited {
+    color: blue;
+    padding: 10px 120px;
+    margin: 1px;
+    display:inline-block;
+}
+main section
 figure {
     margin: 0px 10px;
     display: inline-block;
@@ -100,10 +110,15 @@ aside {
 #catalogo {
     text-align: center;
     background-color: #F2AB00 ;
-    padding: 10px 540px ;
+    padding: 10px 530px ;
     display: inline-block;
     margin-bottom: 6px;
     border-radius: 4px;
     border: 4px inset #F2AB00;
 
+}
+#prom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 30px;
+    text-align: center;
 }

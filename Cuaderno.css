@@ -47,3 +47,14 @@ p {
     font-weight: 300;
     text-align: justify ;
 }
+.titulo{
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+body{
+  background-image: url("ID_IMAGENES/1");
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+}

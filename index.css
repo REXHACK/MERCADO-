@@ -5,9 +5,7 @@
     padding: 0px;    
 }
 body {
-    background-image: url(data:image/jpeg;base64,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);
-    background-repeat: no-repeat;
-    background-size: 10000px;
+    background-color: #abebc6;
 }
 h1 {
     font-family: Arial;
@@ -26,22 +24,22 @@ p {
 nav {
     display: inline-block;
     direction: ltr;
-    margin: 1px;
+    margin: 10px;
+    padding: 4px;
     align-self: center;
 }
 .menu {
     color: black;
-    background-color: rgb(25, 153, 228);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXmHhLvARanwzFI-ERWa6LSUueR2QAC2bIsg&usqp=CAU);
     padding: 10px 110px;
     margin:  1px;
-    border: 5px inset rgb(54, 188, 250);
+    border: 5px outset #5dade2;
     display: inline-block;
 }
 .menu:hover {
-    background-color: rgb(19, 121, 121);
     padding: 10px 110px;
     margin: 1px;
-    border: 5px groove rgb(26, 124, 252);
+    border: 5px double #2980b9;
 }
 .menu:visited {
     color: rgb(8, 47, 221);
@@ -49,13 +47,13 @@ nav {
     margin: 1px;
 }
 .texto_imagen {
-    color:rgb(48, 153, 252);
+    color:#d0d3d4;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 50px;
     text-align: center;
     position: absolute;
     left: 12cm;
-    bottom: 9cm;
+    bottom: 6cm;
     z-index: 1;
 }
 header img {
@@ -68,6 +66,15 @@ header img {
     position: relative;
     border: 10px groove rgb(61, 59, 59);
 }
+#catalogo {
+    text-align: center;
+    background-color: #7fb3d5;
+    padding: 10px 520px ;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 4px;
+    border: 4px ridge #2874a6;
+}
 figure {
     margin: 0px 10px;
     display: inline-block;
@@ -78,7 +85,7 @@ figure {
 aside {    
     width: 300px;
     min-height: 400px;
-    background: pink;
+    background: #c39bd3;
     float: right;
     margin: 10px;
 }
@@ -94,7 +101,6 @@ aside {
 figcaption {
     position: absolute;
     text-align: center;
-    
 }
 figcaption {
     position: absolute;
@@ -103,20 +109,9 @@ figcaption {
     padding: 0px;
 }
 .imagenes {
-
     width: 250px;
     height: 200px;
-    text-align: center;
-}
-#catalogo {
-    text-align: center;
-    background-color: #0bb1e4 ;
-    padding: 10px 530px ;
-    display: inline-block;
-    margin-bottom: 6px;
-    border-radius: 4px;
-    border: 4px inset #002cf2;
-
+    text-align: center; 
 }
 footer {
     margin: 30px;

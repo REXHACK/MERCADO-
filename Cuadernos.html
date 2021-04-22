@@ -1,79 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CUADERNOS </title>
-    <link rel="stylesheet" href="Cuaderno.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CUADERNOS </title>
+  <link rel="stylesheet" href="Cuaderno.css">
 </head>
 <body>
-    <header>
-        <section>
-            <h2 class= "titulo ">CUADERNO</h2>
-        </section>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="Catalogo.html">Catalogo</a>            
-            <a href="#Mi cuenta">Mi cuenta</a> 
-        </nav>
-      
-    </header>
-     <main>
-        <section  class = "contenido_de_catalogo1">
-           <div class=" contenido_de_catalogo">
-             <img src="ID_IMAGENES/Cuaderno rayado.PNG" class="imagen-catalogo">
-               <div class="contenido-textos">
-                   <h3> CUADERNO RAYADO MEDIANO, 80 HOJAS, ARGOLLADO, TIPO CUERO (SURTIDO) </h3>
-                   <p id="marca"> Scribe</p>
-                   <p id="precio"> $17.800 </p>
-                   <h5 class= "boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG" width="30px"></h5>
-               </div>
-           </div>
-           <div class=" contenido_de_catalogo">
-            <img src="ID_IMAGENES/Cuaderno cuadriculado TUFFY.PNG" class="imagen-catalogo">
-              <div class="contenido-textos">
-                <h3> CUADERNO CUADRICULADO TUFFY, 7 MATERIAS "LOVE" </h3>
-                <p id="marca"> Tuffy </p>
-                <p id="precio"> $25.000 </p>
-                  <h5 class="boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG" width="30px"></h5>
-              </div>
-          </div>
-          <div class=" contenido_de_catalogo">
-            <img src="ID_IMAGENES/Cuaderno cuadriculado.PNG" class="imagen-catalogo">
-              <div class="contenido-textos">
-                <h3> CUADERNO CUADRICULADO, 100 HOJAS, COSIDO </h3>
-                <p id="marca"> Norma </p>
-                <p id="precio"> $13.500 </p>
-                  <h5 class="boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG" width="30px"></h5>
-              </div>
-          </div>
-          <div class=" contenido_de_catalogo">
-            <img src="ID_IMAGENES/Cuaderno 7 materias, argollado.webp" class="imagen-catalogo">
-              <div class="contenido-textos">
-                <h3> CUADERNO CUADRICULADO 7 MATERIAS, 224 HOJAS, ARGOLLADO (SURTIDO, PRECIO POR UNIDAD) </h3>
-                <p id="marca"> Keepermate </p>
-                <p id="precio"> $36.000 </p>
-                  <h5 class="boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG" width="30px"></h5>
-              </div>
-          </div>
-          <div class=" contenido_de_catalogo">
-            <img src="ID_IMAGENES/Cuaderno cosido.PNG" class="imagen-catalogo">
-              <div class="contenido-textos">
-                <h3> CUADERNO COSIDO, 100 HOJAS, FERROCARRIL, RENGLONCITOS, TIPO C </h3>
-                <p id="marca"> Norma </p>
-                <p id="precio"> $13.500 </p>
-                  <h5 class="boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG" width="30px"></h5>
-              </div>
-          </div>
-        </section>
-     </main>
-     <footer>
-        <h4>Desarrolladores</h4>
-        <li>Brayan Gomez Lopez</li>
-        <li>Laura Tatiana Gómez Castillo</li>
-        <li>Lady Daniela Díaz Sánchez</li>
-        <li>Yáxul Santiago Cárdenas Hincapié</li>
-     </footer>
+  <header>
+    <section>
+      <h2 class= "titulo ">CUADERNO</h2>
+    </section>
+    <section>
+      <nav>
+        <a href="index.html" class="menu" id="inicio">Inicio</a>
+        <a href="index.html" class="menu">Catalogo</a>
+        <a href="index.html" class="menu">Promociones</a>
+        <a href="mi_cuenta.html" class="menu">Mi cuenta</a>
+        <a href="comentarios.html" class="menu">Comentarios</a>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <section  class = "contenido_de_catalogo1">
+      <div class="contenido_de_catalogo">
+        <img src="ID_IMAGENES/Cuaderno rayado.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> CUADERNO RAYADO MEDIANO, 80 HOJAS, ARGOLLADO, TIPO CUERO (SURTIDO) </h3>
+          <p id="marca"> Scribe</p>
+          <p id="precio"> $17.800 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+      <div class=" contenido_de_catalogo">
+        <img src="ID_IMAGENES/Cuaderno cuadriculado TUFFY.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> CUADERNO CUADRICULADO TUFFY, 7 MATERIAS "LOVE" </h3>
+          <p id="marca"> Tuffy </p>
+          <p id="precio"> $25.000 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+      <div class=" contenido_de_catalogo">
+        <img src="ID_IMAGENES/Cuaderno cuadriculado.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> CUADERNO CUADRICULADO, 100 HOJAS, COSIDO </h3>
+          <p id="marca"> Norma </p>
+          <p id="precio"> $13.500 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+      <div class=" contenido_de_catalogo">
+        <img src="ID_IMAGENES/Cuaderno 7 materias, argollado.webp" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> CUADERNO CUADRICULADO 7 MATERIAS, 224 HOJAS, ARGOLLADO (SURTIDO, PRECIO POR UNIDAD) </h3>
+          <p id="marca"> Keepermate </p>
+          <p id="precio"> $36.000 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+      <div class=" contenido_de_catalogo">
+        <img src="ID_IMAGENES/Cuaderno cosido.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> CUADERNO COSIDO, 100 HOJAS, FERROCARRIL, RENGLONCITOS, TIPO C </h3>
+          <p id="marca"> Norma </p>
+          <p id="precio"> $13.500 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+    <footer>
+      <h4>Desarrolladores</h4>
+      <li>Brayan Gomez Lopez</li>
+      <li>Laura Tatiana Gómez Castillo</li>
+      <li>Lady Daniela Díaz Sánchez</li>
+      <li>Yáxul Santiago Cárdenas Hincapié</li>
+    </footer>
 </body>
 </html>

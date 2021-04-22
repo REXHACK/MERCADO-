@@ -1,78 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UTIKES</title>
-    <link rel="stylesheet" href="Cuaderno.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTIKES</title>
+  <link rel="stylesheet" href="Cuaderno.css">
 </head>
 <body>
-    <header>
-        <section>
-            <h2 class= "titulo ">UTILES ESCOLARES</h2>
-        </section>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="Catalogo.html">Catalogo</a>>
-            <a href="#Mi cuenta">Mi cuenta</a> 
-        </nav>
-    </header>
-     <main>
-        <section  class = "contenido_de_catalogo1">
-           <div class=" contenido_de_catalogo">
-             <img src="ID_IMAGENES/Pegante.PNG" class="imagen-catalogo">
-               <div class="contenido-textos">
-                <h3> PEGANTE EN BARRA DE 20 G TESA, 2 UNIDADES </h3>
-                <p id="marca"> PegaStic </p>
-                <p id="precio"> $15.800 </p>
-                <h5 class= "boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG"></h5>
-               </div>
-           </div>
-           <div class=" contenido_de_catalogo">
-            <img src="ID_IMAGENES/Tijeras.PNG" class="imagen-catalogo">
-              <div class="contenido-textos">
-                <h3> TIJERAS MULTIUSOS, 17.5 CM </h3>
-                <p id="marca"> Deli </p>
-                <p id="precio"> $22.900 </p>
-                  <h5 class="boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG"></h5>
-              </div>
-          </div>
-          <div class=" contenido_de_catalogo">
-            <img src="ID_IMAGENES/Corrector.PNG" class="imagen-catalogo">
-              <div class="contenido-textos">
-                <h3> CORRECTOR BOLÍGRAFO LIQUID PAPER DE 7 ML </h3>
-                <p id="marca"> Paper Mate </p>
-                <p id="precio"> $5.700 </p>
-                  <h5 class="boton">comprar<img id="compra" src="ID_IMAGENES/Comprar.PNG"></h5>
-              </div>
-          </div>
-          <div class=" contenido_de_catalogo">
-            <img src="ID_IMAGENES/Borrador.PNG" class="imagen-catalogo">
-              <div class="contenido-textos">
-                <h3> BORRADOR DE NATA X 10 UNIDADES PZ 20 PELIKAN </h3>
-                <p id="marca"> Pelikan </p>
-                <p id="precio"> $6.700 </p>
-                  <h5 class="boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG"></h5>
-              </div>
-          </div>
-          <div class=" contenido_de_catalogo">
-            <img src="ID_IMAGENES/Cinta.PNG" class="imagen-catalogo">
-              <div class="contenido-textos">
-                <h3> CINTA DE ENMASCARAR BEIGE MULTIUSOS PEGAFAN </h3>
-                <p id="marca"> Pegafan </p>
-                <p id="precio"> $4.250 </p>
-                  <h5 class="boton"><img id="compra" src="ID_IMAGENES/Comprar.PNG"></h5>
-              </div>
-          </div>
-        </section>
-     </main>
-     <footer>
-        <h4>Desarrolladores</h4>
-        <li>Brayan Gomez Lopez</li>
-        <li>Laura Tatiana Gómez Castillo</li>
-        <li>Lady Daniela Díaz Sánchez</li>
-        <li>Yáxul Santiago Cárdenas Hincapié</li>
-     </footer>
+  <header>
+    <section>
+      <h2 class= "titulo ">UTILES ESCOLARES</h2>
+    </section>
+    <section>
+      <nav>
+        <a href="index.html" class="menu" id="inicio">Inicio</a>
+        <a href="index.html" class="menu">Catalogo</a>
+        <a href="index.html" class="menu">Promociones</a>
+        <a href="mi_cuenta.html" class="menu">Mi cuenta</a>
+        <a href="comentarios.html" class="menu">Comentarios</a>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <section  class = "contenido_de_catalogo1">
+      <div class=" contenido_de_catalogo">
+      <img src="ID_IMAGENES/Pegante.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> PEGANTE EN BARRA DE 20 G TESA, 2 UNIDADES </h3>
+          <p id="marca"> PegaStic </p>
+          <p id="precio"> $15.800 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+      <div class=" contenido_de_catalogo">
+      <img src="ID_IMAGENES/Tijeras.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> TIJERAS MULTIUSOS, 17.5 CM </h3>
+          <p id="marca"> Deli </p>
+          <p id="precio"> $22.900 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+      <div class=" contenido_de_catalogo">
+      <img src="ID_IMAGENES/Corrector.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> CORRECTOR BOLÍGRAFO LIQUID PAPER DE 7 ML </h3>
+          <p id="marca"> Paper Mate </p>
+          <p id="precio"> $5.700 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+      <div class=" contenido_de_catalogo">
+      <img src="ID_IMAGENES/Borrador.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> BORRADOR DE NATA X 10 UNIDADES PZ 20 PELIKAN </h3>
+          <p id="marca"> Pelikan </p>
+          <p id="precio"> $6.700 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+      <div class=" contenido_de_catalogo">
+      <img src="ID_IMAGENES/Cinta.PNG" class="imagen-catalogo">
+        <div class="contenido-textos">
+          <h3> CINTA DE ENMASCARAR BEIGE MULTIUSOS PEGAFAN </h3>
+          <p id="marca"> Pegafan </p>
+          <p id="precio"> $4.250 </p>
+          <figure>
+            <form action="mi_cuenta.html">
+              <input type="image" src="ID_IMAGENES/Comprar.PNG" class="boton_compra">
+            </form>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <h4>Desarrolladores</h4>
+    <li>Brayan Gomez Lopez</li>
+    <li>Laura Tatiana Gómez Castillo</li>
+    <li>Lady Daniela Díaz Sánchez</li>
+    <li>Yáxul Santiago Cárdenas Hincapié</li>
+  </footer>
 </body>
 </html>
